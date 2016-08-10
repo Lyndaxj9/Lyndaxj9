@@ -1,0 +1,93 @@
+/* ---------------------------------------------- */
+/* BASIC SETUP */
+/* ---------------------------------------------- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: #fff;
+    color: #2f2927;
+    font-family: 'Source Sans Pro', 'Arial', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+}
+
+/* ---------------------------------------------- */
+/* REUSEABLE COMPONENTS */
+/* ---------------------------------------------- */
+.row {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/* ---------------------------------------------- */
+/* HEADER */
+/* ---------------------------------------------- */
+header {
+    background-color: aquamarine;
+    height: 100vh;
+}
+
+.main-nav {
+    list-style: none;
+    text-align: center;
+    font-weight: 600;
+    font-size: 125%;
+}
+
+.main-nav li {
+    list-style: none;
+    display: inline-block;
+    /*margin: 15px 40px 0 40px;*/
+    padding: 15px 55px 0 55px;
+}
+
+/* ---------------------------------------------- */
+/* CUP OF TEA */
+/* ---------------------------------------------- */
+.cup-of-tea {
+    width: 545px;
+    height: 450px;
+    position: relative;
+}
+
+.cup {
+    border-radius: 50%;
+    background: #fff;
+    width: 450px;
+    height: 450px;
+    margin-top: 50px;
+    position: relative;
+}
+
+.tea {
+    border-radius: 50%;
+    background: #241406;
+    width: 85%;
+    height: 85%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -42.2%;
+    margin-top: -42.2%;
+}
+
+.handle {
+    border-radius: 50%;
+    width: 44.4%;
+    height: 22.2%;
+    background: #fff;
+    position: absolute;
+    top: 39.8%; /* or 39.8% */
+    right: 0;
+}
+
+.my-name {
+    text-align: center;
+    color: #fff; /* #efe8e3; */
+    margin-top: 40%;
+}
