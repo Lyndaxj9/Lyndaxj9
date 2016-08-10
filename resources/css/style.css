@@ -8,8 +8,8 @@
 }
 
 html {
-    background-color: #fff;
-    color: #2f2927;
+    background-color: #ccc;
+    color: #fff;
     font-family: 'Source Sans Pro', 'Arial', sans-serif;
     font-weight: 400;
     font-size: 20px;
@@ -24,11 +24,24 @@ html {
     margin: 0 auto;
 }
 
+.banner {
+    margin: 0 auto 25px;
+    padding-top: 20px;
+    background-color: #00cccc;
+    width: 300px;
+    height: 80px;
+    text-align: center;
+}
+
+h2 {
+    
+}
+
 /* ---------------------------------------------- */
 /* HEADER */
 /* ---------------------------------------------- */
 header {
-    background-color: aquamarine;
+    background-color: #666;
     height: 100vh;
 }
 
@@ -42,10 +55,29 @@ header {
 .main-nav li {
     list-style: none;
     display: inline-block;
-    /*margin: 15px 40px 0 40px;*/
+    //margin: 15px 55px 0 55px;
     padding: 15px 55px 0 55px;
+    background-color: transparent;
+    transition: background-color 0.3s;
+
 }
 
+.main-nav li a:link, .main-nav li a:visited {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s;
+}
+
+/* https://codepen.io/yying6/pen/FvGtz */
+.main-nav li:hover, .main-nav li:active {
+    background-color: #0fe80f;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.main-nav li:hover .nav-link {
+    color: #666;
+}
 /* ---------------------------------------------- */
 /* CUP OF TEA */
 /* ---------------------------------------------- */
@@ -53,6 +85,7 @@ header {
     width: 545px;
     height: 450px;
     position: relative;
+    display: inline-block;
 }
 
 .cup {
@@ -82,7 +115,7 @@ header {
     height: 22.2%;
     background: #fff;
     position: absolute;
-    top: 39.8%; /* or 39.8% */
+    top: 50%; /* or 39.8% */
     right: 0;
 }
 
@@ -90,4 +123,26 @@ header {
     text-align: center;
     color: #fff; /* #efe8e3; */
     margin-top: 40%;
+}
+
+.snippet {
+    float: right;
+    position: relative;
+    height: 100%;
+    display: inline-block;
+    margin-top: 18%;
+    margin-right: 10%;
+}
+
+.snippet p {
+    font-size: 150%;
+    text-align: center;
+}
+
+/* ---------------------------------------------- */
+/* ABOUT */
+/* ---------------------------------------------- */
+.about-section {
+    background-color: #66ff66;
+    padding-top: 25px;
 }
