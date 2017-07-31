@@ -1,4 +1,10 @@
 /* ---------------------------------------------- */
+/* COLORS */
+/* ---------------------------------------------- */
+.carrot-orange {
+  background-color: #e8871e;
+}
+/* ---------------------------------------------- */
 /* NAVBAR CENTERING
 /* ---------------------------------------------- */
 /*
@@ -29,10 +35,11 @@ ul.nav-center li a {
 /* CUP OF TEA */
 /* ---------------------------------------------- */
 .cup-of-tea {
-    width: 300px;
-    height: 250px;
-    position: relative;
-    display: inline-block;
+  width: 300px;
+  height: 250px;
+  position: relative;
+  display: inline-block;
+  margin: 15% 0;
 }
 
 .cup {
@@ -40,9 +47,9 @@ ul.nav-center li a {
     background: #fff;
     width: 82.6%;
     height: 100%;
-    margin-top: 50px;
+    padding-top: 40px;
     position: relative;
-    box-shadow: 0 2px 2px #767676;
+    /*box-shadow: 0 2px 2px #767676;*/
 }
 
 .tea {
@@ -63,31 +70,14 @@ ul.nav-center li a {
     height: 22.2%;
     background: #fff;
     position: absolute;
-    top: 60%; /* or 39.8% */
+    top: 39.8%; /* or 60% */
     right: 0;
-    box-shadow: 0 2px 2px #767676;
+    /*box-shadow: 0 2px 2px #767676;*/
 }
 
 .my-name {
     text-align: center;
     color: #fff; /* #efe8e3; */
-    margin-top: 17%;
+    margin-top: 38%;
     font-size: 180%;
-}
-
-.snippet {
-    float: right;
-    position: relative;
-    height: 100%;
-    display: inline-block;
-    margin-top: 6%;
-    margin-right: 10%;*/
-}
-
-.snippet p {
-    color: #fff;
-    font-size: 220%;
-    font-weight: 700;
-    letter-spacing: 3px;
-    text-align: center;
 }

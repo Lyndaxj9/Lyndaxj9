@@ -31,23 +31,23 @@
     <title>Lynda</title>
   </head>
 
+  <!-- BODY -->
   <body>
-    <div class="section-home">
 
- 					<!-- <div class="row"> -->
-      <nav>
+ 	  <div class="navbar-fixed">
+      <nav class="carrot-orange">
         <div class="nav-wrapper">
           <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
           <ul class="hide-on-med-and-down nav-center">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Skills</a></li>
-            <li><a href="#">Contact</a></li>
-            <li><a href="#">Projects</a></li>
-            <li><a href="#">Instagram?</a></li>
+            <li><a href="#top">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#instagram">Instagram?</a></li>
           </ul>
           <ul class="side-nav" id="mobile-demo">
-            <li class="mobile-center"><a href="#">Home</a></li>
+            <li><a href="#top">Home</a></li>
             <li><a href="#">About</a></li>
             <li><a href="#">Skills</a></li>
             <li><a href="#">Contact</a></li>
@@ -56,8 +56,19 @@
           </ul>
         </div>
       </nav>
-          <!-- </div> -->
-          <div class="row">
+    </div>
+    
+    <section class="green lighten-5">
+      <div class="container">
+        <div class="row">
+          <div class="col s12 m8">
+            <h2 id="about">About</h2>
+            <p class="flow-text">
+                Hello! I'm Omowumi Lynda Ademola a Software Engineer based in the Greater NYC Area.  I am detail oriented, organized, an avid learner and tea enthusiast.
+            </p>
+          </div>
+
+          <div class="col m4 hide-on-small-only">
               <div class="cup-of-tea">
                   <div class="handle"></div>     
                   <div class="cup">
@@ -66,61 +77,49 @@
                       </div>
                   </div>
               </div>
-
-              <div class="snippet">
-                  <p>
-                      UNDER CONSTRUCTION<br>Computer Science Major<br> Developer<br>Tea Enthusiast
-                  </p>
-              </div>
           </div>
+        </div>
 
-      <section class="section-about">
-          <div class="row">
-              <div class="banner"><h2>About</h2></div>
-              <p>
-                  I'm a Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-              </p>
-          </div>
-      </section>
-    </div>
+      </div>
+    </section>
 
-      <section class="section-skills clearfix">
-          <div class="row banner"><h2>Skills</h2></div>
-          <div class="row">
-              <div class="col span-1-of-2">
-              <div class="skill-box">
-                  <h3>Programming Skills</h3>
-                  <ul>
-                      <li>Python</li>
-                      <li>Java</li>
-                      <li>PHP</li>
-                      <li>MySQL</li>
-                      <li>C++/C</li>
-                      <li>HTML</li>
-                      <li>CSS</li>
-                  </ul>
-              </div>
-              </div>
-              <div class="col span-1-of-2">
-              <div class="skill-box">
-                  <h3>Other</h3>
-                  <ul>
-                      <li>Photoshop</li>
-                      <li>Microsoft Excel</li>
-                      <li>Japanese</li>
-                      <li>&emsp;</li>
-                      <li>&emsp;</li>
-                      <li>&emsp;</li>
-                      <li>&emsp;</li>
-                  </ul>
-              </div>
-              </div>
-          </div>
-      </section>
+    <section>
+        <div class="row banner"><h2 id="skills">Skills</h2></div>
+        <div class="row">
+            <div class="col span-1-of-2">
+            <div class="skill-box">
+                <h3>Programming Skills</h3>
+                <ul>
+                    <li>Python</li>
+                    <li>Java</li>
+                    <li>PHP</li>
+                    <li>MySQL</li>
+                    <li>C++/C</li>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                </ul>
+            </div>
+            </div>
+            <div class="col span-1-of-2">
+            <div class="skill-box">
+                <h3>Other</h3>
+                <ul>
+                    <li>Photoshop</li>
+                    <li>Microsoft Excel</li>
+                    <li>Japanese</li>
+                    <li>&emsp;</li>
+                    <li>&emsp;</li>
+                    <li>&emsp;</li>
+                    <li>&emsp;</li>
+                </ul>
+            </div>
+            </div>
+        </div>
+    </section>
 
       <section class="section-projects">
           <div class="row banner">
-              <h2>Projects</h2>
+              <h2 id="projects">Projects</h2>
           </div>
           <div class="row">
           <div class="project-box">
@@ -146,7 +145,7 @@
       </section>
 
       <section class="section-contact">
-          <div class="banner"><h2>Contact</h2></div>
+          <div class="banner"><h2 id="contact">Contact</h2></div>
           <p>
               Linkedin
               Email
