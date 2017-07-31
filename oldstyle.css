@@ -1,0 +1,251 @@
+/* ---------------------------------------------- */
+/* BASIC SETUP */
+/* ---------------------------------------------- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: #f4f4f4;
+    color: #fff;
+    /*font-family: 'Source Sans Pro', 'Arial', sans-serif;*/
+    font-family: 'Roboto Condensed', 'Verdana', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+}
+
+.clearfix {
+    zoom: 1;
+}
+
+.clearfix:after {
+    content: '.';
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+
+/* ---------------------------------------------- */
+/* REUSEABLE COMPONENTS */
+/* ---------------------------------------------- */
+.row {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+section {
+    padding: 25px 0;
+}
+
+.banner {
+    margin: 0 auto 30px;
+    padding-top: 20px;
+    //background-color: #e4572e;
+    width: 300px;
+    height: 85px;
+    text-align: center;
+    border-radius: 20px;
+    border-bottom: 3px solid #e4572e;
+}
+
+h2 {
+    color: #0d0a07;
+    font-size: 170%;
+    letter-spacing: 3px;
+    font-weight: 400;
+    text-transform: uppercase;    
+}
+
+h3 {
+    color: #e4572e;
+    font-size: 150%;
+    font-weight: 400;
+    line-height: 130%;
+    letter-spacing: 3px;
+}
+
+p {
+    color: #0d0a07;
+}
+
+/* ---------------------------------------------- */
+/* HEADER */
+/* ---------------------------------------------- */
+.section-home {
+    height: 100vh;
+    padding: 0;
+}
+
+header {
+    background-color: #00ffc5;
+    height: 60%;
+}
+
+.main-nav {
+    list-style: none;
+    text-align: center;
+    font-weight: 700;
+    font-size: 125%;
+    letter-spacing: 2px;
+}
+
+.main-nav li {
+    list-style: none;
+    display: inline-block;
+    padding: 15px 45px 0 45px;
+    background-color: transparent;
+    transition: background-color 0.3s;
+
+}
+
+.main-nav li a:link, .main-nav li a:visited {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s;
+}
+
+/* https://codepen.io/yying6/pen/FvGtz */
+.main-nav li:hover, .main-nav li:active {
+    background-color: #ea7e5c; /*#0fe80f;*/
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.main-nav li:hover .nav-link {
+    color: #2e382e;
+}
+/* ---------------------------------------------- */
+/* CUP OF TEA */
+/* ---------------------------------------------- */
+.cup-of-tea {
+    width: 300px;
+    height: 250px;
+    position: relative;
+    display: inline-block;
+}
+
+.cup {
+    border-radius: 50%;
+    background: #fff;
+    width: 82.6%;
+    height: 100%;
+    margin-top: 50px;
+    position: relative;
+    box-shadow: 0 2px 2px #767676;
+}
+
+.tea {
+    border-radius: 50%;
+    background: #492b0e; /*#241406;*/
+    width: 85%;
+    height: 85%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -42.2%;
+    margin-top: -42.2%;
+}
+
+.handle {
+    border-radius: 50%;
+    width: 44.4%;
+    height: 22.2%;
+    background: #fff;
+    position: absolute;
+    top: 60%; /* or 39.8% */
+    right: 0;
+    box-shadow: 0 2px 2px #767676;
+}
+
+.my-name {
+    text-align: center;
+    color: #fff; /* #efe8e3; */
+    margin-top: 17%;
+    font-size: 180%;
+}
+
+.snippet {
+    float: right;
+    position: relative;
+    height: 100%;
+    display: inline-block;
+    margin-top: 6%;
+    margin-right: 10%;*/
+}
+
+.snippet p {
+    color: #fff;
+    font-size: 220%;
+    font-weight: 700;
+    letter-spacing: 3px;
+    text-align: center;
+}
+
+/* ---------------------------------------------- */
+/* ABOUT */
+/* ---------------------------------------------- */
+.section-about {
+    background-color: #fff; /*maybe use a gradient #66ff66;*/
+    //padding-top: 25px;
+    //padding-bottom: 25px;
+    color: #0d0a07;
+    height: 40%;
+}
+
+/* ---------------------------------------------- */
+/* SKILLS */
+/* ---------------------------------------------- */
+.section-skills ul li {
+    list-style: none;
+    font-size: 120%;
+}
+
+.skill-box {
+    box-shadow: 0 2px 2px #ccc9c9;
+    color: #0d0a07;
+    width: 60%;
+    background-color: #fff;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-left: 20%;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+/* ---------------------------------------------- */
+/* PROJECTS */
+/* ---------------------------------------------- */
+.section-projects {
+    background-color: #fff;
+}
+
+.project-box {
+    background-color: #f4f4f4;
+    margin-bottom: 30px;
+    padding-bottom: 15px;
+    border-radius: 20px;
+}
+
+.project-box img {
+    height: 100%;
+    width: auto;
+    transform: scale(1.5);
+}
+
+.project-box p {
+    display: inline;
+}
+
+.preview {
+    display: inline-block;
+    height: 250px;
+    width: 375px;
+    margin: 10px 15px;
+    text-align: center;
+    overflow: hidden;
+}
