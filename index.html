@@ -7,7 +7,8 @@
     <link rel="stylesheet" type="text/css" href="css/grid.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
 
-    <!-- BOOTSTRAP -->
+    <!-- FONT AWESOME -->
+    <script src="https://use.fontawesome.com/8f052bc4a5.js"></script>
 
     <!-- MATERIALIZECSS -->
     <!-- Compiled and minified CSS -->
@@ -34,6 +35,8 @@
   <!-- BODY -->
   <body>
 
+    <header>
+    <!-- NAVBAR -->
  	  <div class="navbar-fixed">
       <nav class="carrot-orange">
         <div class="nav-wrapper">
@@ -44,20 +47,21 @@
             <li><a href="#skills">Skills</a></li>
             <li><a href="#contact">Contact</a></li>
             <li><a href="#projects">Projects</a></li>
-            <li><a href="#instagram">Instagram?</a></li>
           </ul>
           <ul class="side-nav" id="mobile-demo">
             <li><a href="#top">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Skills</a></li>
-            <li><a href="#">Contact</a></li>
-            <li><a href="#">Projects</a></li>
-            <li><a href="#">Instagram?</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#projects">Projects</a></li>
           </ul>
         </div>
       </nav>
     </div>
+    </header>
     
+    <main>
+    <!-- ABOUT SECTION -->
     <section class="green lighten-5">
       <div class="container">
         <div class="row">
@@ -83,6 +87,7 @@
       </div>
     </section>
 
+    <!-- SKILLS -->
     <section>
       <div class="container">
         <h2 id="skills" class="center">Skills</h2>
@@ -116,6 +121,7 @@
       </div>
     </section>
 
+    <!-- PROJECTS -->
     <section class="green lighten-5">
       <div class="container">
         <h2 id="projects" class="center space-btw-sections">Projects</h2>
@@ -159,26 +165,44 @@
       </div>
     </section>
 
-      <section class="section-contact">
-          <div class="banner"><h2 id="contact">Contact</h2></div>
-          <p>
-              Linkedin
-              Email
-              Instagram
-              Github
-              Resume
-          </p>
-      </section>
+    <!-- CONTACT -->
+    <section>
+      <div class="container">
 
-      <h2>Instagram</h2>
-      <p>
-          Photos
-      </p>
-
-      <footer>
-          Copyright (c) 2016 <p>Omowumi Lynda Ademola</p>
-      </footer>
+        <h2 id="contact" class="center">Contact Me</h2>
+        <div class="row center">
+          <div class="col s6 m3">  
+            <a class="btn-floating btn-large waves-effect waves-light red">
+              <i class="fa fa-linkedin" aria-hidden="true"></i>
+            </a>
+          </div>
+          <div class="col s6 m3">  
+            <a class="btn-floating btn-large waves-effect waves-light red">
+              <i class="fa fa-github" aria-hidden="true"></i>
+            </a>
+          </div>
+          <div class="col s6 m3">  
+            <a class="btn-floating btn-large waves-effect waves-light red">
+              <i class="fa fa-envelope" aria-hidden="true"></i>
+            </a>
+          </div>
+          <div class="col s6 m3">  
+            <a class="btn-floating btn-large waves-effect waves-light red">
+              <i class="fa fa-instagram" aria-hidden="true"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    </main>
     
-    
+    <!-- FOOTER -->
+    <footer class="page-footer">
+      <div class="row">
+        <div class="col s12 m10">
+          Copyright (c) 2017 Omowumi Lynda Ademola
+        </div>
+      </div>
+    </footer>
   </body>
 <html>
