@@ -81,3 +81,10 @@ ul.nav-center li a {
     margin-top: 38%;
     font-size: 180%;
 }
+
+/* ---------------------------------------------- */
+/* Formatting */
+/* ---------------------------------------------- */
+.space-btw-sections {
+  padding-top: 25px;
+}
