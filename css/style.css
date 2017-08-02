@@ -4,6 +4,14 @@
 .carrot-orange {
   background-color: #e8871e;
 }
+
+.wintergreen-dream {
+  background-color: #5b9279;
+}
+
+.sunray {
+  background-color: #edb458;
+}
 /* ---------------------------------------------- */
 /* NAVBAR CENTERING
 /* ---------------------------------------------- */
@@ -101,4 +109,8 @@ main {
 
 nav .logo-pad {
   padding-left: 20px;
+}
+
+.section-padding {
+  padding: 15px 0;
 }
