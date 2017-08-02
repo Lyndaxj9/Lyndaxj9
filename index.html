@@ -4,8 +4,7 @@
   <head>
     <meta charset="UTF-8"> 
     <link rel="stylesheet" type="text/css" href="css/normalize.css">
-    <link rel="stylesheet" type="text/css" href="css/grid.css">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
+    
 
     <!-- FONT AWESOME -->
     <script src="https://use.fontawesome.com/8f052bc4a5.js"></script>
@@ -24,6 +23,9 @@
       })
     </script>
     
+    <!-- Personal StyleSheet -->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    
     <!-- Icons -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
@@ -40,16 +42,15 @@
  	  <div class="navbar-fixed">
       <nav class="carrot-orange">
         <div class="nav-wrapper">
+          <a href="#" class="logo-pad brand-logo">Omowumi Lynda Ademola</a>
           <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
-          <ul class="hide-on-med-and-down nav-center">
-            <li><a href="#top">Home</a></li>
+          <ul class="hide-on-med-and-down right">
             <li><a href="#about">About</a></li>
             <li><a href="#skills">Skills</a></li>
             <li><a href="#contact">Contact</a></li>
             <li><a href="#projects">Projects</a></li>
           </ul>
           <ul class="side-nav" id="mobile-demo">
-            <li><a href="#top">Home</a></li>
             <li><a href="#about">About</a></li>
             <li><a href="#skills">Skills</a></li>
             <li><a href="#contact">Contact</a></li>
@@ -65,23 +66,26 @@
     <section class="green lighten-5">
       <div class="container">
         <div class="row">
-          <div class="col s12 m8">
+          <div class="col m3 hide-on-small-only">
+              <div class="cup-of-tea">
+                  <div class="handle"></div>     
+                  <div class="cup">
+                      <div class="tea">
+                          
+                      </div>
+                  </div>
+              </div>
+          </div>
+          
+          
+          <div class="col s12 m7 offset-m2">
             <h2 id="about">About</h2>
             <p class="flow-text">
                 Hello! I'm Omowumi Lynda Ademola a Software Engineer based in the Greater NYC Area.  I am detail oriented, organized, an avid learner and tea enthusiast.
             </p>
           </div>
 
-          <div class="col m4 hide-on-small-only">
-              <div class="cup-of-tea">
-                  <div class="handle"></div>     
-                  <div class="cup">
-                      <div class="tea">
-                          <h1 class="my-name">Omowumi Lynda Ademola</h1>
-                      </div>
-                  </div>
-              </div>
-          </div>
+          
         </div>
 
       </div>
@@ -93,6 +97,32 @@
         <h2 id="skills" class="center">Skills</h2>
         
         <div class="row">
+          <table class="responsive-table">
+            <thead>
+              <tr>
+                  <th>Category</th>
+                  <th>Item Name</th>
+              </tr>
+            </thead>
+
+            <tbody>
+              <tr>
+                <td>Programming Languages</td>
+                <td>Java, Python, C++, C</td>
+              </tr>
+              <tr>
+                <td>Web Technologies</td>
+                <td>HTML, CSS, Ruby on Rails</td>
+              </tr>
+              <tr>
+                <td>Jonathan</td>
+                <td>Lollipop</td>
+              </tr>
+            </tbody>
+          </table>
+            
+
+
             <div class="col s12 m5 center">
                 <h3>Programming Skills</h3>
                 <ul>

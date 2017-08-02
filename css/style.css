@@ -98,3 +98,7 @@ body {
 main {
   flex: 1 0 auto;
 }
+
+nav .logo-pad {
+  padding-left: 20px;
+}
