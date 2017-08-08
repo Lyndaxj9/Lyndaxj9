@@ -12,6 +12,22 @@
 .sunray {
   background-color: #edb458;
 }
+
+.medium-vermilion {
+  background-color: #d36135;
+}
+
+.selective-yellow {
+  background-color: #f3b700;
+}
+
+.keppel {
+  background-color: #3ab795;
+}
+
+.white-smoke {
+  background-color: #f4faf5;
+}
 /* ---------------------------------------------- */
 /* NAVBAR CENTERING
 /* ---------------------------------------------- */
@@ -112,11 +128,19 @@ nav .logo-pad {
 }
 
 .section-padding {
-  padding: 15px 0;
+  padding: 45px 0;
 }
 
 .div-container {
   margin: 0 auto;
-  width: 85%;
+  width: 90%;
   padding-bottom: 20px;
+}
+
+.div-content {
+  padding: 4px 0 10px;
+}
+
+.h-pad {
+  padding-left: 20px;
 }
