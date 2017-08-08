@@ -114,3 +114,9 @@ nav .logo-pad {
 .section-padding {
   padding: 15px 0;
 }
+
+.div-container {
+  margin: 0 auto;
+  width: 85%;
+  padding-bottom: 20px;
+}
