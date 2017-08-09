@@ -28,6 +28,18 @@
 .white-smoke {
   background-color: #f4faf5;
 }
+
+.licorce {
+  background-color: #12130f;
+}
+
+.japanese-indigo {
+  background-color: #223843;
+}
+
+.smoky-black{
+  background-color: #070707;
+}
 /* ---------------------------------------------- */
 /* NAVBAR CENTERING
 /* ---------------------------------------------- */
@@ -146,4 +158,8 @@ nav .logo-pad {
 
 .h-pad {
   padding-left: 20px;
+}
+
+.about-div {
+  padding: 0 20px 0 20px;
 }
