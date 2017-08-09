@@ -43,19 +43,6 @@
 /* ---------------------------------------------- */
 /* NAVBAR CENTERING
 /* ---------------------------------------------- */
-/*
-nav.nav-center ul {
-    text-align: center;
-}
-nav.nav-center ul li {
-    display: inline;
-    float: none;
-}
-nav.nav-center ul li a {
-    display: inline-block;
-}
-*/
-
 ul.nav-center {
     text-align: center;
 }
@@ -119,6 +106,19 @@ ul.nav-center li a {
 }
 
 /* ---------------------------------------------- */
+/* Progress Bar */
+/* ---------------------------------------------- */
+.progress-bar {
+  height: 15px;
+  background-color: lightgray;
+}
+
+.progress-bar-inner{
+  height: 15px;
+  background-color: #8c271e; /*vivid auburn*/
+}
+
+/* ---------------------------------------------- */
 /* Formatting */
 /* ---------------------------------------------- */
 .space-btw-sections {
@@ -137,6 +137,14 @@ main {
 
 nav .logo-pad {
   padding-left: 20px;
+}
+
+ul.padding {
+  padding: 0 20px;
+}
+
+ul.padding li {
+  padding-top: 8px;
 }
 
 .section-padding {
