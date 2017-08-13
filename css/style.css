@@ -160,6 +160,10 @@ ul.nav-center li a {
 .card .card-action a:not(.btn):not(.btn-large):not(.btn-large):not(.btn-floating):hover {
   color: #d9a2a7;
 }
+
+.image a {
+  opacity: 100;
+}
 /* ---------------------------------------------- */
 /* Formatting */
 /* ---------------------------------------------- */
@@ -214,4 +218,8 @@ ul.padding li {
   font-size: 20px;
   text-decoration: underline;
   margin-top: 20px;
+}
+
+@media only screen and (min-width: 745px) {
+
 }

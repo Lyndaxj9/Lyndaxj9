@@ -21,8 +21,9 @@
         var date = new Date();
         var year = date.getFullYear();
         document.getElementById("current-year").innerHTML = year;
-        $(".button-collapse").sideNav();
-        console.log( "script called" );
+        if(window.innerWidth <= 745) {
+          document.getElementById("logo-name").innerHTML = "Omowumi";
+        }
       })
     </script>
     
@@ -45,7 +46,7 @@
  	  <div class="navbar-fixed">
       <nav class="smoky-black">  
         <div class="nav-wrapper">
-          <a href="#" class="logo-pad brand-logo">Omowumi Lynda Ademola</a>
+          <a href="#" class="logo-pad brand-logo" id="logo-name">Omowumi Lynda Ademola</a>
         </div>
       </nav>
     </div>
@@ -56,7 +57,7 @@
     <section class="section-padding japanese-indigo">
       <div class="container">
         <div class="row">
-          <div class="col m3 hide-on-small-only">
+          <div class="col l3 hide-on-med-and-down">
               <div class="cup-of-tea">
                   <div class="handle"></div>     
                   <div class="cup">
@@ -68,7 +69,7 @@
           </div>
           
           
-          <div class="col s12 m7 offset-m2">
+          <div class="col s12 m10 l7 offset-l2 offset-m1">
             <h2 id="about" style="color: white;">About</h2>
             <p class="flow-text" style="color: white;">
                 Hello! I'm Omowumi Lynda Ademola a Software Engineer based in the Greater NYC Area.  I am detail oriented, organized, an avid learner and tea enthusiast.
@@ -89,22 +90,22 @@
             <h4 class="h-pad">Contact</h4>
             
             <div class="row center">
-              <div class="col s6 m3">  
+              <div class="col s3 m3">  
                 <a href="https://www.linkedin.com/in/oademola/" class="btn-floating btn-large waves-effect waves-light paynes-grey">
                   <i class="fa fa-linkedin" aria-hidden="true"></i>
                 </a>
               </div>
-              <div class="col s6 m3">  
+              <div class="col s3 m3">  
                 <a href="https://github.com/Lyndaxj9" class="btn-floating btn-large waves-effect waves-light paynes-grey">
                   <i class="fa fa-github" aria-hidden="true"></i>
                 </a>
               </div>
-              <div class="col s6 m3">  
+              <div class="col s3 m3">  
                 <a href="https://www.instagram.com/yyndev/" class="btn-floating btn-large waves-effect waves-light paynes-grey">
                   <i class="fa fa-instagram" aria-hidden="true"></i>
                 </a>
               </div>
-              <div class="col s6 m3">  
+              <div class="col s3 m3">  
                 <a href="mailto:omowumi.l.ademola@gmail.com" class="btn-floating btn-large waves-effect waves-light paynes-grey">
                   <i class="fa fa-envelope" aria-hidden="true"></i>
                 </a>
@@ -115,10 +116,10 @@
             <div class="div-content white-smoke">
             <h4 id="projects" class="h-pad">Projects</h4>
             
-            <div class="col s12 m5 push-m1">
+            <div class="col s12 m10 l5 push-l1 offset-m1">
               <div class="card">
                 <div class="card-image">
-                  <span class="card-title">Robot Escape</span>
+                  <a href="https://github.com/Lyndaxj9/iphone_robot_escape" class="card-title">Robot Escape</a>
                   <div class="overlay"></div>
                   <img src="img/robot_escape.png" alt="web app">
                 </div>
@@ -134,7 +135,7 @@
             </div>
             
               
-            <div class="col s12 m5 push-m1">
+            <div class="col s12 m10 l5 push-l1 offset-m1">
           <div class="card">
             <div class="card-image">
               <div class="overlay"></div>
@@ -251,5 +252,19 @@
         </div>
       </div>
     </footer>
+    
+    <script type="text/javascript">
+      var smallestWidth = 745;
+      
+      function navbarLogo() {
+        if(window.innerWidth <= 745) {
+          document.getElementById("logo-name").innerHTML = "Omowumi";
+        } else {
+          document.getElementById("logo-name").innerHTML = "Omowumi Lynda Ademola";
+        }
+      }
+      
+      window.onresize = navbarLogo;
+    </script>
   </body>
 <html>
