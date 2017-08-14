@@ -220,6 +220,6 @@ ul.padding li {
   margin-top: 20px;
 }
 
-@media only screen and (min-width: 745px) {
-
+.contact-links {
+  margin-top: 10px;
 }
