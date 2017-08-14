@@ -227,3 +227,13 @@ ul.padding li {
 .contact-links {
   margin-top: 10px;
 }
+
+@media only screen and (max-width: 992px) {
+  .card .card-content {
+    font-size: 25px;
+  }
+  
+  .card .card-title {
+    font-size: 35px;
+  }
+}
