@@ -236,4 +236,16 @@ ul.padding li {
   .card .card-title {
     font-size: 35px;
   }
+  
+  .card .card-action {
+    font-size: 30px;
+  }
+  
+  .skill-categ {
+    font-size: 25px;
+  }
+  
+  .skills ul li {
+    font-size: 20px;
+  }
 }
