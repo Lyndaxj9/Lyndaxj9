@@ -229,6 +229,10 @@ ul.padding li {
 }
 
 @media only screen and (max-width: 992px) {
+  nav .logo-pad {
+    padding-left: 0px;  
+  }
+  
   .h-pad {
     font-size: 250%;  
   }
