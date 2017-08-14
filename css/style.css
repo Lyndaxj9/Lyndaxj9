@@ -229,20 +229,28 @@ ul.padding li {
 }
 
 @media only screen and (max-width: 992px) {
+  .h-pad {
+    font-size: 250%;  
+  }
+  
   .card .card-content {
-    font-size: 25px;
+    font-size: 175%;
   }
   
   .card .card-title {
-    font-size: 35px;
+    font-size: 260%;
   }
   
   .card .card-action {
-    font-size: 30px;
+    font-size: 200%;
+  }
+  
+  .contact-links {
+    font-size: 145%;
   }
   
   .skill-categ {
-    font-size: 25px;
+    font-size: 200%;;
   }
   
   .skills ul li {
