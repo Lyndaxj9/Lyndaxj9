@@ -27,7 +27,7 @@
 }
 
 .white-smoke {
-  background-color: #f4faf5; /*f4faf5*/
+  background-color: #f4faf5;
 }
 
 .licorce {
@@ -197,6 +197,10 @@ ul.padding li {
   padding-top: 10px;
 }
 
+.about {
+  color: #fff;
+}
+
 .section-padding {
   padding: 45px 0;
 }
@@ -228,6 +232,9 @@ ul.padding li {
   margin-top: 10px;
 }
 
+/* ---------------------------------------------- */
+/* Mobile Site */
+/* ---------------------------------------------- */
 @media only screen and (max-width: 992px) {
   nav .logo-pad {
     padding-left: 0px;  
