@@ -152,6 +152,7 @@ ul.nav-center li a {
   background-color: dimgrey;
   background-image: url("../img/laptop_desktop.jpg");
   background-size: cover;
+  z-index: -5;
 }
 
 .tint {
