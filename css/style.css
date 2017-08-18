@@ -135,6 +135,19 @@ ul.nav-center li a {
 /* ---------------------------------------------- */
 /* Image */
 /* ---------------------------------------------- */
+.bg {
+  background: url("../img/laptop_desktop.jpg") no-repeat center center fixed;
+  
+  height: 100%;
+  /*
+  background-position: center;
+  background-repeat: no-repeat;
+  */
+  background-size: cover;
+  -moz-background-size: cover;
+    
+}
+
 .card-image > .overlay {
   position: absolute;
   top: 0;
@@ -179,6 +192,10 @@ body {
     display: flex;
     min-height: 100vh;
     flex-direction: column;
+}
+
+html, body{
+  height: 100%;
 }
 
 main {
