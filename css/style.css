@@ -51,7 +51,11 @@
 }
 
 .color-try {
-  background-color: #e3f4ee;
+  background-color: #edf8f4;
+}
+
+.try-color {
+  background-color: #23c9ff;
 }
 
 /*
@@ -128,12 +132,12 @@ ul.nav-center li a {
 /* ---------------------------------------------- */
 .progress-bar {
   height: 20px;
-  background-color: lightgray;
+  background-color: #0f608b; /*lightgray*/
 }
 
 .progress-bar-inner{
   height: 20px;
-  background-color: #8c271e; /*vivid auburn*/
+  background-color: #fff; /*vivid auburn 8c271e*/
 }
 
 /* ---------------------------------------------- */
@@ -262,6 +266,12 @@ ul.padding li {
   padding: 4px 0 10px;
   width: auto;
   overflow: auto;
+}
+
+.project-content > .col {
+  float: none;
+  display: inline-block;
+  vertical-align: top;
 }
 
 .h-pad {
