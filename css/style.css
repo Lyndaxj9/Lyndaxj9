@@ -274,6 +274,12 @@ ul.padding li {
   vertical-align: top;
 }
 
+.skill-content > .col {
+  float: none;
+  display: inline-block;
+  vertical-align: top;
+}
+
 .h-pad {
   padding-left: 20px;
 }
@@ -282,6 +288,10 @@ ul.padding li {
   font-size: 20px;
   text-decoration: underline;
   margin-top: 20px;
+}
+
+.skills ul li {
+  text-align: left;
 }
 
 .contact-links {
