@@ -164,6 +164,11 @@ ul.nav-center li a {
   z-index: -5;
 }
 
+img {
+  height: auto;
+  max-width: 100%;
+}
+
 .tint {
   position: absolute;
   top: 0;
@@ -292,6 +297,18 @@ ul.padding li {
 
 .skills ul li {
   text-align: left;
+}
+
+.exp-place-name {
+  font-size: 25px;
+}
+
+.exp-job-title {
+  font-size: 18px;
+}
+
+.exp-job-desc li {
+  list-style-type: square;
 }
 
 .contact-links {
