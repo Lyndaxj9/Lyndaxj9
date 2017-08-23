@@ -307,7 +307,12 @@ ul.padding li {
   font-size: 18px;
 }
 
-.exp-job-desc li {
+.exp-job-title > ul:not(.browser-default) {
+  padding-left: 18px;
+  list-style-type: square;
+}
+
+.exp-job-title > ul:not(.browser-default) > li {
   list-style-type: square;
 }
 
