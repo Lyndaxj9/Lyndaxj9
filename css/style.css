@@ -316,6 +316,26 @@ ul.padding li {
   list-style-type: square;
 }
 
+.courses {
+  display: flex;
+  justify-content: space-between;
+}
+
+.courses ul {
+  display: inline-block;
+  vertical-align: bottom;
+  margin-top: 5px;
+}
+
+.courses > ul:not(.browser-default) {
+  padding-left: 18px;
+  list-style-type: square;
+}
+
+.courses > ul:not(.browser-default) > li {
+  list-style-type: square;
+}
+
 .contact-links {
   margin-top: 10px;
 }
