@@ -58,6 +58,10 @@
   background-color: #23c9ff;
 }
 
+.bright-cerulean {
+  background-color: #1da5d1;
+}
+
 /*
 columbian: c3dfe0
 payne's grey: 5d737e
@@ -334,6 +338,15 @@ ul.padding li {
 
 .courses > ul:not(.browser-default) > li {
   list-style-type: square;
+}
+
+.contacts {
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact-button {
+  display: inline-block;
 }
 
 .contact-links {
