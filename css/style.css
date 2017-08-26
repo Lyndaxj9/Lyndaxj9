@@ -283,6 +283,10 @@ ul.padding li {
   vertical-align: top;
 }
 
+.project-content .card .card-action a:not(.btn):not(.btn-large):not(.btn-large):not(.btn-floating) {
+  margin-right: 0px;
+}
+
 .skill-content > .col {
   float: none;
   display: inline-block;
@@ -291,6 +295,11 @@ ul.padding li {
 
 .h-pad {
   padding-left: 20px;
+}
+
+.title-section {
+  padding-top: 21.9px;
+  margin-bottom: 30px;
 }
 
 .skill-categ {
@@ -303,12 +312,24 @@ ul.padding li {
   text-align: left;
 }
 
+.exp-box {
+  padding: 15px 0 8px;
+}
+
+.exp-img {
+  margin-left: 10px;
+}
+
 .exp-place-name {
   font-size: 25px;
 }
 
 .exp-job-title {
   font-size: 18px;
+}
+
+.exp-job-title span {
+  margin-right: 28px
 }
 
 .exp-job-title > ul:not(.browser-default) {
@@ -318,6 +339,14 @@ ul.padding li {
 
 .exp-job-title > ul:not(.browser-default) > li {
   list-style-type: square;
+}
+
+.edu-box .col {
+  padding: 15px 15px 8px;
+}
+
+.edu-title {
+  margin-bottom: 30px;
 }
 
 .courses {
