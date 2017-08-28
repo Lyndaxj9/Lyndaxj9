@@ -81,57 +81,6 @@ ul.nav-center li a {
 }
 
 /* ---------------------------------------------- */
-/* CUP OF TEA */
-/* ---------------------------------------------- */
-.cup-of-tea {
-  width: 300px;
-  height: 250px;
-  position: relative;
-  display: inline-block;
-  margin: 15% 0;
-}
-
-.cup {
-    border-radius: 50%;
-    background: #fff;
-    width: 82.6%;
-    height: 100%;
-    padding-top: 40px;
-    position: relative;
-    /*box-shadow: 0 2px 2px #767676;*/
-}
-
-.tea {
-    border-radius: 50%;
-    background: #492b0e; /*#241406;*/
-    width: 85%;
-    height: 85%;
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    margin-left: -42.2%;
-    margin-top: -42.2%;
-}
-
-.handle {
-    border-radius: 50%;
-    width: 44.4%;
-    height: 22.2%;
-    background: #fff;
-    position: absolute;
-    top: 39.8%; /* or 60% */
-    right: 0;
-    /*box-shadow: 0 2px 2px #767676;*/
-}
-
-.my-name {
-    text-align: center;
-    color: #fff; /* #efe8e3; */
-    margin-top: 38%;
-    font-size: 180%;
-}
-
-/* ---------------------------------------------- */
 /* Progress Bar */
 /* ---------------------------------------------- */
 .progress-bar {

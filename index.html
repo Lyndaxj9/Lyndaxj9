@@ -16,6 +16,8 @@
     <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
     <!-- Compiled and minified JavaScript -->
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/js/materialize.min.js"></script>
+    
+    <!-- External js file -->
     <script type="text/javascript" src="js/effect.js"></script>
     
     <!-- Personal StyleSheet -->
@@ -36,7 +38,7 @@
     <header>
     <!-- NAVBAR -->
  	  <div class="navbar-fixed">
-      <nav class="transparent">  
+      <nav class="smoky-black" id="navbar">  
         <div class="nav-wrapper">
           <a href="#" class="logo-pad brand-logo" id="logo-name">Omowumi Lynda Ademola</a>
         </div>
@@ -55,7 +57,7 @@
         </div>
       </div>
     <div class="tint"></div>
-    <div class="bg"></div>
+    <div class="bg" id="bgimg"></div>
     </section>
     
     <main class="page-content">  
@@ -359,20 +361,5 @@
 
     </main>
     
-    
-    
-    <script type="text/javascript">
-      var smallestWidth = 745;
-      
-      function navbarLogo() {
-        if(window.innerWidth <= 745) {
-          document.getElementById("logo-name").innerHTML = "Omowumi";
-        } else {
-          document.getElementById("logo-name").innerHTML = "Omowumi Lynda Ademola";
-        }
-      }
-      
-      window.onresize = navbarLogo;
-    </script>
   </body>
 <html>
