@@ -248,6 +248,10 @@ nav .logo-pad {
   padding-left: 20px;
 }
 
+h3 {
+  letter-spacing: 3px;
+}
+
 ul.padding {
   padding: 0 20px;
 }
@@ -277,6 +281,20 @@ ul.padding li {
   overflow: auto;
 }
 
+nav {
+  height: 50px;
+  line-height: 50px;
+}
+
+.nav-wrapper a {
+  opacity: 0.3;
+  font-size: 20px;
+}
+
+.nav-wrapper a:link {
+  opacity: 0.3;
+}
+
 .intro {
   position: absolute;
   top: 0;
@@ -301,7 +319,7 @@ ul.padding li {
 }
 
 .intro-content h3 {
-  margin: 15px 30px auto;
+  margin: 15px 30px;
 }
 
 .intro-content a {
@@ -348,8 +366,17 @@ ul.padding li {
   margin-top: 20px;
 }
 
+/* Adding a little info about skill level
+<span>Intermediate</span>
+.skills ul li span {
+  float: right;
+  color: white;
+  letter-spacing: 2px;
+}
+*/
 .skills ul li {
   text-align: left;
+  letter-spacing: 1px;
 }
 
 .exp-box {
