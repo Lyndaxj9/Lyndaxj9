@@ -2,12 +2,12 @@
  * Get the current year from the date for the footer copyright
  */
 $(document).ready(function(){
-        var date = new Date();
-        var year = date.getFullYear();
-        document.getElementById("current-year").innerHTML = year;
-        if(window.innerWidth <= 745) {
-          document.getElementById("logo-name").innerHTML = "Omowumi";
-        }
+  var date = new Date();
+  var year = date.getFullYear();
+  document.getElementById("current-year").innerHTML = year;
+  if(window.innerWidth <= 745) {
+    document.getElementById("logo-name").innerHTML = "Omowumi";
+  }
 });
 
 /**
@@ -26,16 +26,14 @@ window.onresize = navbarLogo;
 
 /**
  * Change the navbar's opacity when scroll past the main image
- JS code from: https://codepen.io/michaeldoyle/pen/Bhsif
  */
-var bgimg = $(document).getElementById("bgimg");
-var navbar = $(document).getElementById("navbar");
-var range = 200;
+var range = 550;
 $(window).on('scroll', (function() {
-  var scrollTop = $(this).scrollTop(),
-      height = bgimg.outerHeight(),
-      offset = height / 2,
-      calc = 1 - (scrollTop - offset + range) / range;
   
-  navbar.css({ 'opacity': calc});
-});
+  console.log("scroll?");
+  if($(this).scrollTop() > range) {
+    $(".nav-overlay").fadeIn();
+  } else {
+    $(".nav-overlay").fadeOut();
+  }
+}));
