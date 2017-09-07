@@ -337,6 +337,12 @@ nav {
   letter-spacing: 2px;
 }
 */
+.skills {
+  border: solid;
+  border-width: 0.1em;
+  border-color: #000;
+}
+
 .skills ul li {
   text-align: left;
   letter-spacing: 1px;
@@ -382,6 +388,9 @@ nav {
 
 .edu-box .col {
   padding: 15px 15px 8px;
+  border: solid;
+  border-width: 0.1em;
+  border-color: #000;
 }
 
 .edu-title {
