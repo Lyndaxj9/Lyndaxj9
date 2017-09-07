@@ -435,9 +435,17 @@ nav {
   display: inline-block;
 }
 
+.contact-button .btn-floating:hover {
+  background-color: #0f608b;
+}
+
 .contact-button .btn-floating i {
   color: #000;
   /*font-size: 50px;*/
+}
+
+.contact-button .btn-floating i:hover {
+  color: #fff;
 }
 
 .contact-links {
