@@ -33,7 +33,9 @@ $(window).on('scroll', (function() {
   console.log("scroll?");
   if($(this).scrollTop() > range) {
     $(".nav-overlay").fadeIn();
+    document.getElementById("logo-name").style.opacity = 1.0;
   } else {
     $(".nav-overlay").fadeOut();
+    document.getElementById("logo-name").style.opacity = 0.3;
   }
 }));
