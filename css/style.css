@@ -55,11 +55,11 @@
 }
 
 .try-color {
-  background-color: #23c9ff;
+  background-color: #23c9ff; /*23c9ff*/
 }
 
 .bright-cerulean {
-  background-color: #23C8FF; /*1da5d1*/
+  background-color: #fff; /*1da5d1 23C8FF*/
 }
 
 /*
@@ -90,7 +90,7 @@ ul.nav-center li a {
 
 .progress-bar-inner{
   height: 20px;
-  background-color: #fff; /*vivid auburn 8c271e*/
+  background-color: #23c9ff; /*vivid auburn 8c271e*/
 }
 
 /* ---------------------------------------------- */
@@ -393,6 +393,15 @@ nav {
 
 .courses > ul:not(.browser-default) > li {
   list-style-type: square;
+  color: #23c9ff;
+}
+
+.courses > ul:not(.browser-default) > li span {
+  color: #000;
+}
+
+#contact h3 {
+  color: #fff;
 }
 
 .contacts {
@@ -402,6 +411,11 @@ nav {
 
 .contact-button {
   display: inline-block;
+}
+
+.contact-button .btn-floating i {
+  color: #000;
+  /*font-size: 50px;*/
 }
 
 .contact-links {
